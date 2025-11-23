@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IA Sin Humo: Guía Didáctica de Inteligencia Artificial Generativa</title>
-    <meta name="description" content="Una guía completa y didáctica para entender la inteligencia artificial generativa sin tecnicismos. Aprende sobre modelos, prompts, agentes, riesgos y cómo aplicar la IA en tus proyectos.">
-    <meta name="keywords" content="inteligencia artificial generativa, IA, guía IA, prompts, modelos de lenguaje, LLM, agentes IA, nesval, IA Sin Humo">
+    <meta name="description"
+        content="Una guía completa y didáctica para entender la inteligencia artificial generativa sin tecnicismos. Aprende sobre modelos, prompts, agentes, riesgos y cómo aplicar la IA en tus proyectos.">
+    <meta name="keywords"
+        content="inteligencia artificial generativa, IA, guía IA, prompts, modelos de lenguaje, LLM, agentes IA, nesval, IA Sin Humo">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://00nesval.github.io/iasinhumo/">
     <meta property="og:title" content="IA Sin Humo: Guía Didáctica de Inteligencia Artificial Generativa">
-    <meta property="og:description" content="Una guía completa y didáctica para entender la IA generativa sin tecnicismos. Aprende sobre modelos, prompts, agentes y cómo aplicar la IA en tus proyectos.">
+    <meta property="og:description"
+        content="Una guía completa y didáctica para entender la IA generativa sin tecnicismos. Aprende sobre modelos, prompts, agentes y cómo aplicar la IA en tus proyectos.">
     <meta property="og:image" content="https://00nesval.github.io/iasinhumo/images/00.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://00nesval.github.io/iasinhumo/">
     <meta property="twitter:title" content="IA Sin Humo: Guía Didáctica de Inteligencia Artificial Generativa">
-    <meta property="twitter:description" content="Una guía completa y didáctica para entender la IA generativa sin tecnicismos. Aprende sobre modelos, prompts, agentes y cómo aplicar la IA en tus proyectos.">
+    <meta property="twitter:description"
+        content="Una guía completa y didáctica para entender la IA generativa sin tecnicismos. Aprende sobre modelos, prompts, agentes y cómo aplicar la IA en tus proyectos.">
     <meta property="twitter:image" content="https://00nesval.github.io/iasinhumo/images/00.png">
     <link rel="stylesheet" href="styles.css?v=1.3">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYGTP2R857"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYGTP2R857"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-PYGTP2R857');
-</script>
+        gtag('config', 'G-PYGTP2R857');
+    </script>
 </head>
+
 <body>
 
     <!-- Navegación Superior -->
@@ -75,7 +81,8 @@
                 <div class="index-image-container">
                     <img src="images/00.png" alt="IA Generativa" class="responsive-image">
                     <div class="welcome-text">
-                        <p>Una guía para entender y aplicar <span class="highlight-text">inteligencia artificial generativa</span>.<br>Sin tecnicismos, directo al punto. Para personas no expertas.</p>
+                        <p>Una guía para entender y aplicar <span class="highlight-text">inteligencia artificial
+                                generativa</span>.<br>Sin tecnicismos, directo al punto. Para personas no expertas.</p>
                     </div>
                 </div>
                 <div class="index-list-container">
@@ -104,7 +111,8 @@
             <h1>1. Auge de la IA generativa</h1>
             <div class="interactive-layout">
                 <div class="interactive-column-image">
-                    <img src="images/01.png" alt="Cerebro digital representando el auge de la IA generativa" class="responsive-image">
+                    <img src="images/01.png" alt="Cerebro digital representando el auge de la IA generativa"
+                        class="responsive-image">
                 </div>
                 <div class="interactive-column-content">
                     <div class="interactive-summary-view">
@@ -125,30 +133,46 @@
                         <div id="s1-detail-1" class="detail-content hidden">
                             <h3>Vieja IA (antes de 2017)</h3>
                             <ul>
-                                <li>Enfocada en <strong>análisis predictivo</strong> y <a href="https://es.wikipedia.org/wiki/Big_data" target="_blank">big data</a>. Procesaba palabra por palabra.</li>
-                                <li><strong>Ejemplos:</strong> Detección de fraude, <strong><a href="https://es.wikipedia.org/wiki/Sistema_de_recomendaci%C3%B3n" target="_blank">sistemas de recomendación</a> (Netflix, YouTube, Spotify).</strong></li>
-                                <li>No creaba contenido, solo <strong>clasificaba o predecía</strong>, sin entender el contexto.</li>
+                                <li>Enfocada en <strong>análisis predictivo</strong> y <a
+                                        href="https://es.wikipedia.org/wiki/Big_data" target="_blank">big data</a>.
+                                    Procesaba palabra por palabra.</li>
+                                <li><strong>Ejemplos:</strong> Detección de fraude, <strong><a
+                                            href="https://es.wikipedia.org/wiki/Sistema_de_recomendaci%C3%B3n"
+                                            target="_blank">sistemas de recomendación</a> (Netflix, YouTube,
+                                        Spotify).</strong></li>
+                                <li>No creaba contenido, solo <strong>clasificaba o predecía</strong>, sin entender el
+                                    contexto.</li>
                             </ul>
                         </div>
                         <div id="s1-detail-2" class="detail-content hidden">
                             <h3>Claves del cambio: más datos, mejores equipos, nuevo enfoque</h3>
                             <ul>
                                 <li><strong>GPUs (placas de video):</strong> Aumento de potencia computacional.</li>
-                                <li><strong>Datos masivos:</strong> Internet y las redes generaron un mar de texto, imágenes y código para entrenar.</li>
+                                <li><strong>Datos masivos:</strong> Internet y las redes generaron un mar de texto,
+                                    imágenes y código para entrenar.</li>
                                 <li><strong>La nube:</strong> Acceso fácil y económico a la potencia y los datos.</li>
                             </ul>
                         </div>
                         <div id="s1-detail-3" class="detail-content hidden">
                             <h3>Nueva IA con arquitectura Transformers (2017 en adelante)</h3>
                             <ul>
-                                <li><strong>Visión general:</strong> En lugar de leer palabra por palabra, el modelo analiza la frase completa para entender todo el panorama.</li>
-                                <li><strong>Foco en lo importante:</strong> Identifica las palabras clave. Entiende cómo se relacionan. Presta atención al contexto <a href="https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html" target="_blank">(auto-atención)</a>.</li>
-                                <li><strong>Resultado:</strong> Aceleró el entrenamiento. Lo hizo más eficiente. Habilitó la IA generativa que conocemos.</li>
-                                <li><strong>Modelos grandes de lenguaje (LLM):</strong> Bibliotecas neuronales gigantes. No solo almacenan conocimiento humano, sino que lo combinan para crear ideas y conversaciones nuevas.</li>
-                                <li><strong>Entienden y generan:</strong> Son sistemas complejos. Reconocen patrones y relaciones. Fueron entrenados con cantidades masivas de datos y texto. Comprenden y elaboran lenguaje humano.</li>
+                                <li><strong>Visión general:</strong> En lugar de leer palabra por palabra, el modelo
+                                    analiza la frase completa para entender todo el panorama.</li>
+                                <li><strong>Foco en lo importante:</strong> Identifica las palabras clave. Entiende cómo
+                                    se relacionan. Presta atención al contexto <a
+                                        href="https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html"
+                                        target="_blank">(auto-atención)</a>.</li>
+                                <li><strong>Resultado:</strong> Aceleró el entrenamiento. Lo hizo más eficiente.
+                                    Habilitó la IA generativa que conocemos.</li>
+                                <li><strong>Modelos grandes de lenguaje (LLM):</strong> Bibliotecas neuronales gigantes.
+                                    No solo almacenan conocimiento humano, sino que lo combinan para crear ideas y
+                                    conversaciones nuevas.</li>
+                                <li><strong>Entienden y generan:</strong> Son sistemas complejos. Reconocen patrones y
+                                    relaciones. Fueron entrenados con cantidades masivas de datos y texto. Comprenden y
+                                    elaboran lenguaje humano.</li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -159,7 +183,8 @@
             <h1>2. Utilidad y propósito</h1>
             <div class="interactive-layout">
                 <div class="interactive-column-image">
-                    <img src="images/02.png" alt="Ilustración sobre la utilidad de la IA Generativa" class="responsive-image">
+                    <img src="images/02.png" alt="Ilustración sobre la utilidad de la IA Generativa"
+                        class="responsive-image">
                 </div>
                 <div class="interactive-column-content">
                     <div class="interactive-summary-view">
@@ -179,39 +204,52 @@
                     <div class="interactive-detail-view hidden">
                         <div id="s2-detail-1" class="detail-content hidden">
                             <h3>Un socio creativo</h3>
-                            <p>Es una IA que no solo analiza datos, sino que <strong>crea contenido nuevo y original</strong> a partir de tus instrucciones (<a href="https://platform.openai.com/docs/guides/prompt-engineering" target="_blank">prompts</a>).</p>
+                            <p>Es una IA que no solo analiza datos, sino que <strong>crea contenido nuevo y
+                                    original</strong> a partir de tus instrucciones (<a
+                                    href="https://platform.openai.com/docs/guides/prompt-engineering"
+                                    target="_blank">prompts</a>).</p>
                             <ul>
                                 <li>Te saca de la "hoja en blanco". Pero es mucho más que eso.</li>
                                 <li><strong>Redacta.</strong> Genera borradores, ideas y guiones.</li>
                                 <li><strong>Crea</strong> imágenes, música y código. Organiza textos.</li>
-                                <li>Las personas asumen un <strong>rol vinculado a la edición de contenidos</strong> en el proceso creativo.</li>
+                                <li>Las personas asumen un <strong>rol vinculado a la edición de contenidos</strong> en
+                                    el proceso creativo.</li>
                                 <li>Podés <strong>desarrollar apps simples</strong> sin saber programar.</li>
                             </ul>
                         </div>
                         <div id="s2-detail-2" class="detail-content hidden">
                             <h3>No es magia, es colaboración</h3>
-                            <p>La clave es la <strong>iteración</strong>. Es un ida y vuelta constante entre vos y la IA para refinar el resultado.</p>
+                            <p>La clave es la <strong>iteración</strong>. Es un ida y vuelta constante entre vos y la IA
+                                para refinar el resultado.</p>
                             <ul>
                                 <li>Requiere <strong>instrucciones claras y contexto</strong>.</li>
-                                <li>Comete errores ("alucina"), por eso tu <strong>revisión es indispensable</strong>.</li>
+                                <li>Comete errores ("alucina"), por eso tu <strong>revisión es indispensable</strong>.
+                                </li>
                                 <li>La <strong>calidad de los datos</strong> que le das es fundamental.</li>
                                 <li>Se hace camino al andar. No hay manuales de uso.</li>
-                                <li>Transformación constante: nuevos modelos, servicios, costos y condiciones de uso.</li>
-                                <li>Acceso a los modelos generativos a través de plataformas web (chat) o de apis para desarrolladores.</li>
+                                <li>Transformación constante: nuevos modelos, servicios, costos y condiciones de uso.
+                                </li>
+                                <li>Acceso a los modelos generativos a través de plataformas web (chat) o de apis para
+                                    desarrolladores.</li>
                             </ul>
                         </div>
                         <div id="s2-detail-3" class="detail-content hidden">
                             <h3>El verdadero potencial: amplificar, no reemplazar</h3>
                             <p>La IA generativa es una herramienta para <strong>potenciar tu trabajo</strong>.</p>
                             <ul>
-                                <li><strong>Automatización inteligente:</strong> Analiza y genera contenido en todos los formatos. Puede conectarse a datos y servicios web.</li>
-                                <li><strong>Libera tiempo:</strong> Acelera ciertas partes del trabajo. Mejora procesos y labores repetitivas (transcribir, resumir, etc.).</li>
-                                <li><strong>Te da más autonomía:</strong> Podés encarar proyectos que antes te exigían contar con personal técnico (sitio web, app simple, etc.).</li>
-                                <li><strong>Creatividad y aprendizaje:</strong> Propone analogías y enfoques alternativos. Explica conceptos difíciles o dudas específicas.</li>
-                                <li><strong>Aporta en todos los campos de estudio y trabajo</strong>, incluso siendo de carácter experimental.</li>
+                                <li><strong>Automatización inteligente:</strong> Analiza y genera contenido en todos los
+                                    formatos. Puede conectarse a datos y servicios web.</li>
+                                <li><strong>Libera tiempo:</strong> Acelera ciertas partes del trabajo. Mejora procesos
+                                    y labores repetitivas (transcribir, resumir, etc.).</li>
+                                <li><strong>Te da más autonomía:</strong> Podés encarar proyectos que antes te exigían
+                                    contar con personal técnico (sitio web, app simple, etc.).</li>
+                                <li><strong>Creatividad y aprendizaje:</strong> Propone analogías y enfoques
+                                    alternativos. Explica conceptos difíciles o dudas específicas.</li>
+                                <li><strong>Aporta en todos los campos de estudio y trabajo</strong>, incluso siendo de
+                                    carácter experimental.</li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -253,18 +291,26 @@
                             <ul>
                                 <li>Los modelos son <strong>entrenados con grandes cantidades de datos</strong>.</li>
                                 <li>Consiguen <strong>predecir palabras en función del contexto</strong>.</li>
-                                <li>En una segunda etapa, reciben un <strong>posentrenamiento</strong> donde aprenden a <strong>seguir instrucciones</strong>, <strong>razonar</strong> y <strong>usar herramientas</strong>.</li>
-                                <li>Su <strong>conocimiento tiene una fecha de corte</strong>, pero se <strong>amplía o actualiza al interactuar con la web o bases de datos</strong>.</li>
-                                <li>De origen, son <strong>generalistas</strong>, pero mediante <strong>instrucciones y el acceso a datos específicos pueden personalizarse</strong>.</li>
+                                <li>En una segunda etapa, reciben un <strong>posentrenamiento</strong> donde aprenden a
+                                    <strong>seguir instrucciones</strong>, <strong>razonar</strong> y <strong>usar
+                                        herramientas</strong>.
+                                </li>
+                                <li>Su <strong>conocimiento tiene una fecha de corte</strong>, pero se <strong>amplía o
+                                        actualiza al interactuar con la web o bases de datos</strong>.</li>
+                                <li>De origen, son <strong>generalistas</strong>, pero mediante <strong>instrucciones y
+                                        el acceso a datos específicos pueden personalizarse</strong>.</li>
                             </ul>
                         </div>
                         <div id="s3-detail-1" class="detail-content hidden">
                             <h3>Generalistas (creativos)</h3>
                             <ul>
                                 <li><strong>Ideales para:</strong> Creatividad, redacción, exploración de ideas.</li>
-                                <li><strong>Cómo funcionan:</strong> Aprenden estructura y estilo de escritura a partir de millones de textos.</li>
-                                <li><strong>Iteración para pulir:</strong> Generan nuevos contenidos que se van mejorando a partir del ida y vuelta con quien los usa.</li>
-                                <li><strong>Cuándo usarlos:</strong> Para explorar temas e ideas, escribir guiones, crear tramas, personajes, etc.</li>
+                                <li><strong>Cómo funcionan:</strong> Aprenden estructura y estilo de escritura a partir
+                                    de millones de textos.</li>
+                                <li><strong>Iteración para pulir:</strong> Generan nuevos contenidos que se van
+                                    mejorando a partir del ida y vuelta con quien los usa.</li>
+                                <li><strong>Cuándo usarlos:</strong> Para explorar temas e ideas, escribir guiones,
+                                    crear tramas, personajes, etc.</li>
                                 <li><strong>Ejemplos:</strong> Modelos base de Gemini, Claude, Llama.</li>
                             </ul>
                         </div>
@@ -272,17 +318,23 @@
                             <h3>Razonadores (analíticos)</h3>
                             <ul>
                                 <li><strong>Ideales para:</strong> Tareas complejas, análisis, lógica y código.</li>
-                                <li><strong>Búsqueda profunda:</strong> Potencian búsquedas web que entienden tu intención y sintetizan respuestas desde múltiples fuentes.</li>
-                                <li><strong>Cómo funcionan:</strong> Descomponen el problema en pasos lógicos antes de responder. Utilizan un proceso llamado "cadena de pensamiento" que les permite analizar y elegir el camino más adecuado.</li>
-                                <li><strong>Cuándo usarlos:</strong> Para investigar, resolver problemas o tareas que exigen precisión.</li>
-                                <li><strong>Ejemplos:</strong> GPT-o3, Gemini 2.5-Pro, Claude 4; Grok 3 y 4; DeepSeek R1.</li>
+                                <li><strong>Búsqueda profunda:</strong> Potencian búsquedas web que entienden tu
+                                    intención y sintetizan respuestas desde múltiples fuentes.</li>
+                                <li><strong>Cómo funcionan:</strong> Descomponen el problema en pasos lógicos antes de
+                                    responder. Utilizan un proceso llamado "cadena de pensamiento" (thinking) que les
+                                    permite analizar y elegir el camino más adecuado.</li>
+                                <li><strong>Cuándo usarlos:</strong> Para investigar, resolver problemas o tareas que
+                                    exigen precisión.</li>
+                                <li><strong>Ejemplos:</strong> GPT-5.1, Gemini 3 Pro, Claude 4.5, Grok 4.1, DeepSeek R1.
+                                </li>
                             </ul>
                         </div>
                         <div id="s3-detail-3" class="detail-content hidden">
                             <h3>Abiertos vs. Cerrados</h3>
                             <div class="comparison-container">
                                 <div class="comparison-column">
-                                    <p><span class="sub-category-title"><strong>Cerrados</strong> (ej. ChatGPT, Gemini, Grok):</span></p>
+                                    <p><span class="sub-category-title"><strong>Cerrados</strong> (ej. ChatGPT, Gemini,
+                                            Grok):</span></p>
                                     <ul class="icon-list">
                                         <li>✅ Muy pulidos, fáciles de usar.</li>
                                         <li>⚠️ No se pueden modificar.</li>
@@ -290,7 +342,8 @@
                                     </ul>
                                 </div>
                                 <div class="comparison-column">
-                                    <p><span class="sub-category-title"><strong>Abiertos</strong> (ej. Llama, Mixtral, DeepSeek):</span></p>
+                                    <p><span class="sub-category-title"><strong>Abiertos</strong> (ej. Llama, Mixtral,
+                                            DeepSeek):</span></p>
                                     <ul class="icon-list">
                                         <li>✅ Descargables en local y ajustables.</li>
                                         <li>✅ Mayor control y privacidad.</li>
@@ -302,13 +355,17 @@
                         <div id="s3-detail-4" class="detail-content hidden">
                             <h3>El futuro es híbrido</h3>
                             <ul>
-                                <li>La tendencia es que todos los modelos combinen predicción estadística con lógica estructurada para dialogar y razonar.</li>
-                                <li>Esta IA no solo responde, aprende tu estilo y ajusta sus argumentos. Sigue siendo fundamental que vos revises y valides las respuestas.</li>
-                                <li>Tiene el potencial de armar razonamientos sólidos, pero también puede equivocarse o repetir sesgos: tu criterio es la clave.</li>
-                                <li>No se trata solamente de qué tan potente es el modelo, sino de cómo lo usás y lo guiás para que trabaje y piense junto a vos.</li>
+                                <li>La tendencia es que todos los modelos combinen predicción estadística con lógica
+                                    estructurada para dialogar y razonar.</li>
+                                <li>Esta IA no solo responde, aprende tu estilo y ajusta sus argumentos. Sigue siendo
+                                    fundamental que vos revises y valides las respuestas.</li>
+                                <li>Tiene el potencial de armar razonamientos sólidos, pero también puede equivocarse o
+                                    repetir sesgos: tu criterio es la clave.</li>
+                                <li>No se trata solamente de qué tan potente es el modelo, sino de cómo lo usás y lo
+                                    guiás para que trabaje y piense junto a vos.</li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -325,7 +382,8 @@
                     <div class="interactive-summary-view">
                         <div class="summary-block" data-target="s4-detail-1">
                             <h3>Tips: comunicación e ideas claras</h3>
-                            <p>La IA es un copiloto, no un piloto automático. El punto de partida es el problema, no la tecnología.</p>
+                            <p>La IA es un copiloto, no un piloto automático. El punto de partida es el problema, no la
+                                tecnología.</p>
                         </div>
                         <div class="summary-block" data-target="s4-detail-2">
                             <h3>¿Qué podés hacer?</h3>
@@ -336,12 +394,18 @@
                         <div id="s4-detail-1" class="detail-content hidden">
                             <h3>Tips: comunicación e ideas claras, acotar y experimentar</h3>
                             <ul>
-                                <li>La IA funciona mejor como un <strong>copiloto inteligente</strong> que potencia tu trabajo, no como un piloto automático que decide solo.</li>
-                                <li>El <strong>punto de partida no es la tecnología, sino una pregunta bien formulada</strong>: ¿qué problema querés resolver y cómo lo vas a medir?</li>
-                                <li><strong>Pensar en términos claros, acotar el problema, y trazar un plan simple</strong> son las claves del proceso.</li>
-                                <li><strong>No hace falta saber programar</strong>: lo importante es entender tu proyecto, tus datos y tus objetivos.</li>
-                                <li><strong>Empezá con proyectos pequeños</strong>: un prototipo simple, útil y medible vale más que una promesa de sistema perfecto.</li>
-                                <li><strong>Preguntale y repreguntale a la IA</strong>, hablándole como si fuera una persona. Curioseá y experimentá.</li>
+                                <li>La IA funciona mejor como un <strong>copiloto inteligente</strong> que potencia tu
+                                    trabajo, no como un piloto automático que decide solo.</li>
+                                <li>El <strong>punto de partida no es la tecnología, sino una pregunta bien
+                                        formulada</strong>: ¿qué problema querés resolver y cómo lo vas a medir?</li>
+                                <li><strong>Pensar en términos claros, acotar el problema, y trazar un plan
+                                        simple</strong> son las claves del proceso.</li>
+                                <li><strong>No hace falta saber programar</strong>: lo importante es entender tu
+                                    proyecto, tus datos y tus objetivos.</li>
+                                <li><strong>Empezá con proyectos pequeños</strong>: un prototipo simple, útil y medible
+                                    vale más que una promesa de sistema perfecto.</li>
+                                <li><strong>Preguntale y repreguntale a la IA</strong>, hablándole como si fuera una
+                                    persona. Curioseá y experimentá.</li>
                             </ul>
                         </div>
                         <div id="s4-detail-2" class="detail-content hidden">
@@ -360,7 +424,7 @@
                                 <li><strong>Integrar IA en sitios web o flujos de trabajo</strong></li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -383,20 +447,31 @@
                     <div class="interactive-detail-view hidden">
                         <div id="s5-detail-1" class="detail-content hidden">
                             <h3>El arte de dar instrucciones y contexto</h3>
-                            <p style="max-width: 800px; margin-bottom: 2rem;">Para que la IA funcione bien <strong>es fundamental la calidad de tu consulta y el contexto que le des</strong>.</p>
+                            <p style="max-width: 800px; margin-bottom: 2rem;">Para que la IA funcione bien <strong>es
+                                    fundamental la calidad de tu consulta y el contexto que le des</strong>.</p>
                             <ul>
-                                <li><strong>Rol y Contexto:</strong> Asignale un rol ("Actuá como un experto en marketing para PyMEs") y describí la situación.</li>
-                                <li><strong>Instrucciones Claras:</strong> Detallá el objetivo, los pasos a seguir y, muy importante, lo que debe evitar.</li>
-                                <li><strong>Tono y Estilo:</strong> Definí si la comunicación debe ser formal, creativa, técnica o cercana.</li>
-                                <li><strong>Ejemplos Concretos:</strong> Proporcioná 1 o 2 ejemplos del resultado que esperás. Esto mejora drásticamente la calidad.</li>
-                                <li><strong>Formato de Salida:</strong> Pedí la respuesta en un formato específico: tabla, lista, cantidad de párrafos, etc.</li>
+                                <li><strong>Rol y Contexto:</strong> Asignale un rol ("Actuá como un experto en
+                                    marketing para PyMEs") y describí la situación.</li>
+                                <li><strong>Instrucciones Claras:</strong> Detallá el objetivo, los pasos a seguir y,
+                                    muy importante, lo que debe evitar.</li>
+                                <li><strong>Tono y Estilo:</strong> Definí si la comunicación debe ser formal, creativa,
+                                    técnica o cercana.</li>
+                                <li><strong>Ejemplos Concretos:</strong> Proporcioná 1 o 2 ejemplos del resultado que
+                                    esperás. Esto mejora drásticamente la calidad.</li>
+                                <li><strong>Formato de Salida:</strong> Pedí la respuesta en un formato específico:
+                                    tabla, lista, cantidad de párrafos, etc.</li>
                             </ul>
                         </div>
-                        
+
                     </div>
-                    <p class="quote-text">Si tenés dudas sobre cómo armar tu prompt, <strong>preguntale a la propia IA</strong>.</p>
-                    <p class="quote-text" style="margin-top: 1rem;">Si el prompt, contexto o los datos son malos, <strong>la respuesta será mala</strong>.</p>
-                    <p class="quote-text" style="margin-top: 1rem;">Cuanto más claro sea el pedido y encuadre <strong>mejor será la devolución del LLM</strong>.</p>
+                    <p class="quote-text">Si tenés dudas sobre cómo armar tu prompt, <strong>preguntale a la propia
+                            IA</strong>.</p>
+                    <p class="quote-text" style="margin-top: 1rem;">Si el prompt, contexto o los datos son malos,
+                        <strong>la respuesta será mala</strong>.
+                    </p>
+                    <p class="quote-text" style="margin-top: 1rem;">Cuanto más claro sea el pedido y encuadre
+                        <strong>mejor será la devolución del LLM</strong>.
+                    </p>
                 </div>
             </div>
         </div>
@@ -438,42 +513,82 @@
                             <h4 class="group-title">Para usuarios y emprendedores</h4>
                             <div id="s6-detail-1" class="detail-content hidden">
                                 <h3 class="concept-title">1. Prompt simple</h3>
-                                <p>Ponés <strong>instrucciones detalladas</strong>. Rol, contexto, formato esperado y ejemplos para que se comporte necesitás. Es el método más simple y accesible para interactuar.</p>
+                                <p>Ponés <strong>instrucciones detalladas</strong>. Rol, contexto, formato esperado y
+                                    ejemplos para que se comporte necesitás. Es el método más simple y accesible para
+                                    interactuar.</p>
                                 <div class="indicators">
-                                    <div class="indicator-line"><span>Costo:</span> <div class="dots"><span class="dot low"></span></div></div>
-                                    <div class="indicator-line"><span>Complejidad:</span> <div class="dots"><span class="dot low"></span></div></div>
+                                    <div class="indicator-line"><span>Costo:</span>
+                                        <div class="dots"><span class="dot low"></span></div>
+                                    </div>
+                                    <div class="indicator-line"><span>Complejidad:</span>
+                                        <div class="dots"><span class="dot low"></span></div>
+                                    </div>
                                 </div>
                             </div>
                             <div id="s6-detail-2" class="detail-content hidden">
                                 <div class="recommendation-badge">Recomendado</div>
-                                <h3 class="concept-title">2. RAG (Generación aumentada por recuperación)</h3>
-                                <p>Le das instrucciones y tus propios documentos (pdf, doc, txt, etc.) para que los use como <strong>base de conocimiento</strong>. Ideal para crear un bot personalizado con objetivos específicos e información propia. Con este método, no necesitamos darle un rol y ejemplos en cada interacción, porque ya conoce qué tiene que hacer. Ejemplos de personalización con RAG son los GPTs y carpetas de proyectos de ChatGPT; las Gems de Gemini; o los bots de instrucciones de Poe.</p>
+                                <h3 class="concept-title">2. RAG (Tu propia info)</h3>
+                                <p>Le das instrucciones y tus propios documentos (pdf, doc, txt, etc.) para que los use
+                                    como <strong>base de conocimiento</strong>. Ideal para crear un bot personalizado
+                                    con objetivos específicos e información propia. Con este método, no necesitamos
+                                    darle un rol y ejemplos en cada interacción, porque ya conoce qué tiene que hacer.
+                                    Ejemplos de personalización con RAG son los GPTs y carpetas de proyectos de ChatGPT;
+                                    las Gems de Gemini; o los bots de instrucciones de Poe.</p>
                                 <div class="indicators">
-                                    <div class="indicator-line"><span>Costo:</span> <div class="dots"><span class="dot low"></span><span class="dot medium"></span></div></div>
-                                    <div class="indicator-line"><span>Complejidad:</span> <div class="dots"><span class="dot low"></span><span class="dot medium"></span></div></div>
+                                    <div class="indicator-line"><span>Costo:</span>
+                                        <div class="dots"><span class="dot low"></span><span class="dot medium"></span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-line"><span>Complejidad:</span>
+                                        <div class="dots"><span class="dot low"></span><span class="dot medium"></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="method-group">
                             <h4 class="group-title">Para desarrolladores y grandes empresas</h4>
                             <div id="s6-detail-3" class="detail-content hidden">
-                                <h3 class="concept-title">3. <a href="https://huggingface.co/blog/lora" target="_blank">Fine-Tuning / LoRA</a></h3>
-                                <p>Implica <strong>reentrenar al modelo</strong> con tus datos para que aprenda un estilo o conocimiento nuevo. Ofrece máxima personalización, pero es más costoso y técnico (ej. para crear versiones de Llama o GPT especializadas en temas médicos o legales). LoRA es una técnica más eficiente que solo ajusta una pequeña parte del modelo.</p>
+                                <h3 class="concept-title">3. <a href="https://huggingface.co/blog/lora"
+                                        target="_blank">Entrenamiento a medida (Fine-Tuning)</a></h3>
+                                <p>Implica <strong>reentrenar al modelo</strong> con tus datos para que aprenda un
+                                    estilo o conocimiento nuevo. Ofrece máxima personalización, pero es más costoso y
+                                    técnico (ej. para crear versiones de Llama o GPT especializadas en temas médicos o
+                                    legales). LoRA es una técnica más eficiente que solo ajusta una pequeña parte del
+                                    modelo.</p>
                                 <div class="indicators">
-                                    <div class="indicator-line"><span>Costo:</span> <div class="dots"><span class="dot medium"></span><span class="dot high"></span></div></div>
-                                    <div class="indicator-line"><span>Complejidad:</span> <div class="dots"><span class="dot medium"></span><span class="dot high"></span></div></div>
+                                    <div class="indicator-line"><span>Costo:</span>
+                                        <div class="dots"><span class="dot medium"></span><span class="dot high"></span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-line"><span>Complejidad:</span>
+                                        <div class="dots"><span class="dot medium"></span><span class="dot high"></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div id="s6-detail-4" class="detail-content hidden">
-                                <h3 class="concept-title">4. <a href="https://ai.googleblog.com/2022/01/lamda-our-breakthrough-conversation.html" target="_blank">MoE</a> (Mixtura de expertos)</h3>
-                                <p>Una <strong>arquitectura avanzada</strong> que usa <strong>múltiples modelos "expertos"</strong> que se activan según la tarea. Es el enfoque más potente y costoso, usado por grandes empresas (ej. los modelos más avanzados de Gemini y Mixtral de Mistral AI). Un modelo generalista actúa como un "director de orquesta" que elige al experto adecuado para cada consulta.</p>
+                                <h3 class="concept-title">4. <a
+                                        href="https://ai.googleblog.com/2022/01/lamda-our-breakthrough-conversation.html"
+                                        target="_blank">MoE</a> (Mixtura de expertos)</h3>
+                                <p>Una <strong>arquitectura avanzada</strong> que usa <strong>múltiples modelos
+                                        "expertos"</strong> que se activan según la tarea. Es el enfoque más potente y
+                                    costoso, usado por grandes empresas (ej. Gemini 3 Pro y Mixtral de Mistral AI). Un
+                                    modelo generalista actúa como un "director de orquesta" que elige al experto
+                                    adecuado para cada consulta.</p>
                                 <div class="indicators">
-                                    <div class="indicator-line"><span>Costo:</span> <div class="dots"><span class="dot high"></span><span class="dot high"></span><span class="dot high"></span></div></div>
-                                    <div class="indicator-line"><span>Complejidad:</span> <div class="dots"><span class="dot high"></span><span class="dot high"></span><span class="dot high"></span></div></div>
+                                    <div class="indicator-line"><span>Costo:</span>
+                                        <div class="dots"><span class="dot high"></span><span
+                                                class="dot high"></span><span class="dot high"></span></div>
+                                    </div>
+                                    <div class="indicator-line"><span>Complejidad:</span>
+                                        <div class="dots"><span class="dot high"></span><span
+                                                class="dot high"></span><span class="dot high"></span></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -504,30 +619,45 @@
                     <div class="interactive-detail-view hidden">
                         <div id="s7-detail-1" class="detail-content hidden">
                             <h3>IA Conectada a Internet y bases de datos</h3>
-                            <p>Los modelos ya no están aislados. Ahora pueden <strong>conectarse a sistemas externos</strong> para ser mucho más útiles:</p>
+                            <p>Los modelos ya no están aislados. Ahora pueden <strong>conectarse a sistemas
+                                    externos</strong> para ser mucho más útiles:</p>
                             <ul>
-                                <li><strong>Búsqueda Web:</strong> Acceso a información actualizada para evitar respuestas obsoletas.</li>
-                                <li><strong>Tus Propios Datos:</strong> Conexión a tus documentos en la compu o la nube: Google Drive, Notion, etc.</li>
-                                <li><strong>Acciones en Apps:</strong> Integración con Calendario, Gmail, CRM para ejecutar tareas.</li>
+                                <li><strong>Búsqueda Web:</strong> Acceso a información actualizada para evitar
+                                    respuestas obsoletas.</li>
+                                <li><strong>Tus Propios Datos:</strong> Conexión a tus documentos en la compu o la nube:
+                                    Google Drive, Notion, etc.</li>
+                                <li><strong>Acciones en Apps:</strong> Integración con Calendario, Gmail, CRM para
+                                    ejecutar tareas.</li>
                             </ul>
                         </div>
                         <div id="s7-detail-2" class="detail-content hidden">
                             <h3>Agentes de IA</h3>
-                            <p>Un agente es un sistema que <strong>actúa de forma autónoma para cumplir un objetivo</strong>.</p>
+                            <p>Un agente es un sistema que <strong>actúa de forma autónoma para cumplir un
+                                    objetivo</strong>.</p>
                             <ul>
                                 <li><strong>Analiza</strong> un problema complejo.</li>
                                 <li><strong>Crea un plan</strong> de varios pasos.</li>
                                 <li><strong>Ejecuta</strong> herramientas y acciones por sí mismo.</li>
                                 <li><strong>Evalúa y corrige:</strong> si un paso falla, lo modifica.</li>
                                 <li><strong>Aprende</strong> sobre la marcha, para mejorar el resultado final.</li>
-                                <li><strong>Orquesta:</strong> imaginate al agente IA como quien dirige una orquesta. Le dan una partitura (prompt con un objetivo). Asigna roles, organiza a los músicos y busca que todo suene bien.</li>
-                                <li><strong>Ejemplo:</strong> una persona solicita una página web sobre un tema específico. El agente analiza, planifica y distribuye roles. Cumple diferentes tareas: conectarse a internet, investigar, resumir, generar contenido, etc. Con esa info, programa y desarrolla el sitio.</li>
-                                
+                                <li><strong>Orquesta:</strong> imaginate al agente IA como quien dirige una orquesta. Le
+                                    dan una partitura (prompt con un objetivo). Asigna roles, organiza a los músicos y
+                                    busca que todo suene bien.</li>
+                                <li><strong>Ejemplo:</strong> una persona solicita una página web sobre un tema
+                                    específico. El agente analiza, planifica y distribuye roles. Cumple diferentes
+                                    tareas: conectarse a internet, investigar, resumir, generar contenido, etc. Con esa
+                                    info, programa y desarrolla el sitio.</li>
+
                             </ul>
                             </ul>
-                            <p class="quote-text" style="margin-top: 1.5rem;">Un <strong>bot</strong> común recibe un pedido y <strong>responde</strong>.</p>
-                            <p class="quote-text" style="margin-top: 1.5rem;">Un <strong>agente</strong> recibe un objetivo, <strong>crea un plan por su cuenta, asigna tareas y devuelve el resultado final</strong>. Es un director de orquesta.</p>
-                            <p class="quote-text" style="margin-top: 1.5rem;"><strong>Analogía laboral:</strong> el bot sería un empleado, <strong>mientras que el agente actuaría como un gerente de proyecto</strong>.</p>
+                            <p class="quote-text" style="margin-top: 1.5rem;">Un <strong>bot</strong> común recibe un
+                                pedido y <strong>responde</strong>.</p>
+                            <p class="quote-text" style="margin-top: 1.5rem;">Un <strong>agente</strong> recibe un
+                                objetivo, <strong>crea un plan por su cuenta, asigna tareas y devuelve el resultado
+                                    final</strong>. Es un director de orquesta.</p>
+                            <p class="quote-text" style="margin-top: 1.5rem;"><strong>Analogía laboral:</strong> el bot
+                                sería un empleado, <strong>mientras que el agente actuaría como un gerente de
+                                    proyecto</strong>.</p>
                         </div>
                         <div id="s7-detail-3" class="detail-content hidden">
                             <h3>Evolución de la IA: Predictiva a Agéntica</h3>
@@ -600,7 +730,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -617,7 +747,8 @@
                     <div class="interactive-summary-view">
                         <div class="summary-block" data-target="s8-detail-1">
                             <h3>Integrada al sistema</h3>
-                            <p>La IA se fusiona con tus dispositivos para una interacción por voz natural y contextual.</p>
+                            <p>La IA se fusiona con tus dispositivos para una interacción por voz natural y contextual.
+                            </p>
                         </div>
                         <div class="summary-block" data-target="s8-detail-2">
                             <h3>La web empieza a pensar</h3>
@@ -633,19 +764,25 @@
                             <h3><strong>Integrada al sistema</strong></h3>
                             <ul>
                                 <li>Interacción por voz en dispositivos cotidianos.</li>
-                                <li>IA responde en tiempo real, como si hablases con una persona: entiende tono y contexto.</li>
-                                <li>Comandos naturales para tareas complejas. Combina texto, imagen, audio, video y código.</li>
-                                <li>No es solo una app: funciona como parte del sistema operativo (celular, computadora o auto).</li>
+                                <li>IA responde en tiempo real, como si hablases con una persona: entiende tono y
+                                    contexto.</li>
+                                <li>Comandos naturales para tareas complejas. Combina texto, imagen, audio, video y
+                                    código.</li>
+                                <li>No es solo una app: funciona como parte del sistema operativo (celular, computadora
+                                    o auto).</li>
                                 <li>Puede leer gráficos, imágenes o videos y explicarlos con voz.</li>
                             </ul>
                         </div>
                         <div id="s8-detail-2" class="detail-content hidden">
                             <h3><strong>La web empieza a pensar</strong></h3>
                             <ul>
-                                <li>Adiós al Google tradicional: en vez de navegar, la IA busca, analiza y te da un resumen útil.</li>
+                                <li>Adiós al Google tradicional: en vez de navegar, la IA busca, analiza y te da un
+                                    resumen útil.</li>
                                 <li>Tu asistente rastrea la web por vos, revisa páginas y selecciona lo importante.</li>
-                                <li>Los sitios se adaptan: usan etiquetas, microdatos y APIs para que las IA los entiendan mejor.</li>
-                                <li>Bots conversan entre sí, intercambian datos y luego te ofrecen respuestas personalizadas.</li>
+                                <li>Los sitios se adaptan: usan etiquetas, microdatos y APIs para que las IA los
+                                    entiendan mejor.</li>
+                                <li>Bots conversan entre sí, intercambian datos y luego te ofrecen respuestas
+                                    personalizadas.</li>
                             </ul>
                         </div>
                         <div id="s8-detail-3" class="detail-content hidden">
@@ -653,16 +790,20 @@
                             <ul>
                                 <li>Robots y objetos inteligentes (de escritorio o para llevar).</li>
                                 <li>Conversan, reconocen tu cara, reaccionan con emociones y aprenden de vos.</li>
-                                <li>Andan por la casa, controlan luces, reproducen llamadas, muestran info proyectada.</li>
+                                <li>Andan por la casa, controlan luces, reproducen llamadas, muestran info proyectada.
+                                </li>
                                 <li>Humanoides con cerebro de IA: ven, entienden y actúan para ayudarte.</li>
                                 <li>Androides que asisten en tareas físicas repetitivas o peligrosas.</li>
-                                <li>Vehículos autónomos que piensan y hablan: autos, drones y minibuses que ajustan rutas y reaccionan al entorno.</li>
-                                <li>Límites actuales: falta de regulación, infraestructura adecuada y aceptación social.</li>
+                                <li>Vehículos autónomos que piensan y hablan: autos, drones y minibuses que ajustan
+                                    rutas y reaccionan al entorno.</li>
+                                <li>Límites actuales: falta de regulación, infraestructura adecuada y aceptación social.
+                                </li>
                             </ul>
                         </div>
-                        
+
                     </div>
-                     <p class="quote-text">El futuro no es solo digital. Es físico, cotidiano, y va a caminar con nosotros.</p>
+                    <p class="quote-text">El futuro no es solo digital. Es físico, cotidiano, y va a caminar con
+                        nosotros.</p>
                 </div>
             </div>
         </div>
@@ -677,75 +818,139 @@
                 <div class="interactive-column-content">
                     <div class="interactive-summary-view">
                         <div class="summary-block" data-target="s9-detail-1">
-                            <h3 style="color: var(--neon-green);">Beneficios: aumentar capacidades humanas e investigación</h3>
-                            <p>La IA puede potenciar la creatividad, productividad y generar avances en todos los sectores.</p>
+                            <h3 style="color: var(--neon-green);">Beneficios: aumentar capacidades humanas e
+                                investigación</h3>
+                            <p>La IA puede potenciar la creatividad, productividad y generar avances en todos los
+                                sectores.</p>
                         </div>
                         <div class="summary-block" data-target="s9-detail-2">
                             <h3 style="color: var(--neon-pink);">Riesgos: pérdida de empleos y privacidad</h3>
-                            <p>La transformación afectará puestos laborales. Es posible que genere una mayor dependencia tecnológica y emocional.</p>
+                            <p>La transformación afectará puestos laborales. Es posible que genere una mayor dependencia
+                                tecnológica y emocional.</p>
                         </div>
                         <div class="section-divider">
                             <h4>Transformación de roles</h4>
-                            <p>Lo repetitivo se automatiza, todo o en parte. Persisten la destreza física y lo que requiere empatía humana.</p>
+                            <p>Lo repetitivo se automatiza, todo o en parte. Persisten la destreza física y lo que
+                                requiere empatía humana.</p>
                         </div>
                         <div class="summary-block" data-target="s9-detail-3">
                             <h3 style="color: var(--neon-blue);">La oficina cambia, los oficios resisten</h3>
-                            <p>Las tareas de oficina se automatizan, mientras que los trabajos físicos y creativos que requieren intervención humana se revalorizan.</p>
+                            <p>Las tareas de oficina se automatizan, mientras que los trabajos físicos y creativos que
+                                requieren intervención humana se revalorizan.</p>
                         </div>
                         <div class="summary-block" data-target="s9-detail-4">
                             <h3 style="color: var(--neon-blue);">Transición difícil y nuevos trabajos</h3>
-                            <p>La adaptación traerá desempleo estructural, pero también creará nuevas funciones centradas en la supervisión, ética y diseño de IA.</p>
+                            <p>La adaptación traerá desempleo estructural, pero también creará nuevas funciones
+                                centradas en la supervisión, ética y diseño de IA.</p>
                         </div>
                     </div>
                     <div class="interactive-detail-view hidden">
                         <div id="s9-detail-1" class="detail-content hidden">
                             <h3 style="color: var(--neon-green);">Beneficios: potenciar capacidades humanas</h3>
-                            <p>La IA generativa permite hacer más con menos recursos. Eso abre nuevas posibilidades en todos los campos.</p>
+                            <p>La IA generativa permite hacer más con menos recursos. Eso abre nuevas posibilidades en
+                                todos los campos.</p>
                             <ul>
-                                <li><strong>Aumento de la productividad:</strong> Integrar la IA en diferentes proyectos <strong>acelera flujos de trabajo en redacción, análisis, diseño, investigación, soporte técnico, etc.</strong> Libera tiempo para tareas más estratégicas y reduce cuellos de botella.</li>
-                                <li><strong>Avances en innovación:</strong> Permite analizar grandes volúmenes de datos, sintetizar información dispersa y generar hipótesis nuevas en áreas como salud, investigación de materiales o clima. <strong>Aporta velocidad y capacidad de exploración</strong>.</li>
-                                <li><strong>Democratización de habilidades:</strong> Personas sin formación técnica tienen la posibilidad de <strong>programar, diseñar productos o desarrollar contenidos complejos</strong>. Eso nivela el acceso a herramientas que antes estaban reservadas a especialistas.</li>
-                                <li><strong>Impulso a la creatividad:</strong> Utilizar IA <strong>potencia procesos creativos sin reemplazarlos</strong>. Ayuda a generar ideas visuales, narrativas o musicales, a experimentar con variantes, y a pensar desde ángulos que antes no se veían.</li>
-                                 <li><strong>Mejoras en infraestructura y servicios:</strong> Desde optimizar el tránsito hasta realizar diagnósticos médicos más precisos. <strong>La IA puede aportar eficiencia a cualquier sistema</strong>. También ayuda en la gestión de recursos, prevención de desastres y logística.</li>
+                                <li><strong>Aumento de la productividad:</strong> Integrar la IA en diferentes proyectos
+                                    <strong>acelera flujos de trabajo en redacción, análisis, diseño, investigación,
+                                        soporte técnico, etc.</strong> Libera tiempo para tareas más estratégicas y
+                                    reduce cuellos de botella.
+                                </li>
+                                <li><strong>Avances en innovación:</strong> Permite analizar grandes volúmenes de datos,
+                                    sintetizar información dispersa y generar hipótesis nuevas en áreas como salud,
+                                    investigación de materiales o clima. <strong>Aporta velocidad y capacidad de
+                                        exploración</strong>.</li>
+                                <li><strong>Democratización de habilidades:</strong> Personas sin formación técnica
+                                    tienen la posibilidad de <strong>programar, diseñar productos o desarrollar
+                                        contenidos complejos</strong>. Eso nivela el acceso a herramientas que antes
+                                    estaban reservadas a especialistas.</li>
+                                <li><strong>Impulso a la creatividad:</strong> Utilizar IA <strong>potencia procesos
+                                        creativos sin reemplazarlos</strong>. Ayuda a generar ideas visuales, narrativas
+                                    o musicales, a experimentar con variantes, y a pensar desde ángulos que antes no se
+                                    veían.</li>
+                                <li><strong>Mejoras en infraestructura y servicios:</strong> Desde optimizar el tránsito
+                                    hasta realizar diagnósticos médicos más precisos. <strong>La IA puede aportar
+                                        eficiencia a cualquier sistema</strong>. También ayuda en la gestión de
+                                    recursos, prevención de desastres y logística.</li>
                             </ul>
                         </div>
                         <div id="s9-detail-2" class="detail-content hidden">
-                            <h3 style="color: var(--neon-pink);">Riesgos: desempleo, privacidad, dependencia y desigualdad</h3>
-                            <p>La adopción de la IA trae desafíos concretos en el mundo del trabajo y los aspectos personales.</p>
+                            <h3 style="color: var(--neon-pink);">Riesgos: desempleo, privacidad, dependencia y
+                                desigualdad</h3>
+                            <p>La adopción de la IA trae desafíos concretos en el mundo del trabajo y los aspectos
+                                personales.</p>
                             <ul>
-                                <li><strong>Transformación del empleo:</strong> La incorporación de la IA en las empresas desplazará ciertos roles (puestos de oficina, call center, iniciantes de varios sectores) y pondrá en tensión muchas profesiones. Exigirá adaptación. Se discutirá la posibilidad de un ingreso universal.</li>
-                                <li><strong>Sesgos y discriminación:</strong> Los modelos pueden perpetuar y amplificar prejuicios presentes en los datos, llevando a decisiones injustas en áreas como contratación o evaluación de créditos.</li>
-                                <li><strong>Privacidad y seguridad:</strong> El procesamiento de datos en la nube plantea interrogantes sobre cómo se utiliza y protege la información sensible de empresas e individuos.</li>
-                                <li><strong>Dependencia tecnológica y emocional:</strong> La capacidad de la IA para recordar interacciones, datos, personalizar la experiencia de uso y simular empatía podrían crear un <strong>apego emocional</strong>.</li>
-                                <li><strong>Desigualdad:</strong> Si bien hay modelos accesibles, es indudable que existe <strong>una brecha para acceder a los más potentes</strong>, que están limitados a quienes pueden pagar suscripciones o APIs más caras.</li>
-                                <li><strong>Deterioro congnitivo:</strong> Es posible que el acostumbramiento a esta tecnología provoque, ante ciertos casos de uso, <strong>un costo cognitivo para las personas</strong>, afectando ciertas habilidades.</li>
-                                <li><strong>Uso bélico y desinformación:</strong> La IA aplicada a inteligencia militar y armamento autónomo <strong>supone riesgos para la humanidad</strong>. Aumenta la chance de ciberataques sofisticados, <strong>campañas de desinformación y noticias falsas</strong>. Importancia del pensamiento crítico.</li>
+                                <li><strong>Transformación del empleo:</strong> La incorporación de la IA en las
+                                    empresas desplazará ciertos roles (puestos de oficina, call center, iniciantes de
+                                    varios sectores) y pondrá en tensión muchas profesiones. Exigirá adaptación. Se
+                                    discutirá la posibilidad de un ingreso universal.</li>
+                                <li><strong>Sesgos y discriminación:</strong> Los modelos pueden perpetuar y amplificar
+                                    prejuicios presentes en los datos, llevando a decisiones injustas en áreas como
+                                    contratación o evaluación de créditos.</li>
+                                <li><strong>Privacidad y seguridad:</strong> El procesamiento de datos en la nube
+                                    plantea interrogantes sobre cómo se utiliza y protege la información sensible de
+                                    empresas e individuos.</li>
+                                <li><strong>Dependencia tecnológica y emocional:</strong> La capacidad de la IA para
+                                    recordar interacciones, datos, personalizar la experiencia de uso y simular empatía
+                                    podrían crear un <strong>apego emocional</strong>.</li>
+                                <li><strong>Desigualdad:</strong> Si bien hay modelos accesibles, es indudable que
+                                    existe <strong>una brecha para acceder a los más potentes</strong>, que están
+                                    limitados a quienes pueden pagar suscripciones o APIs más caras.</li>
+                                <li><strong>Deterioro cognitivo:</strong> Es posible que el acostumbramiento a esta
+                                    tecnología provoque, ante ciertos casos de uso, <strong>un costo cognitivo para las
+                                        personas</strong>, afectando ciertas habilidades.</li>
+                                <li><strong>Uso bélico y desinformación:</strong> La IA aplicada a inteligencia militar
+                                    y armamento autónomo <strong>supone riesgos para la humanidad</strong>. Aumenta la
+                                    chance de ciberataques sofisticados, <strong>campañas de desinformación y noticias
+                                        falsas</strong>. Importancia del pensamiento crítico.</li>
                             </ul>
                         </div>
                         <div id="s9-detail-3" class="detail-content hidden">
                             <p class="sub-category-title"><strong>La oficina cambia, los oficios resisten</strong></p>
                             <ul>
-                                <li><strong>Labor de oficina:</strong> Las tareas más predecibles, repetitivas y digitalizables serán asumidas, total o parcialmente, por IA: entrada de datos, atención básica al cliente, informes estándar, traducciones genéricas, etc.</li>
-                                <li><strong>Oficios (carpintería, plomería, etc.):</strong> Los trabajos físicos que exigen destreza, improvisación o empatía (tareas manuales, cuidado de personas, atención educativa, artesanía, etc.) <strong>seguirán necesitando intervención humana directa.</strong>.</li>
-                                <li><strong>Destreza física:</strong> También mantendrán valor <strong>disciplinas corporales como el deporte, la danza o el entrenamiento personalizado</strong>, ya que requieren presencia, intuición, adaptación al contexto y coordinación motora fina. Hoy, eso es difícil de imitar para una máquina.</li>
-                                <li><strong>Principio de Moravec:</strong> Es más fácil para una IA redactar un ensayo que clavar un clavo. Por eso, en un mundo cada vez más automatizado, los oficios se revalorizan.</li>
+                                <li><strong>Labor de oficina:</strong> Las tareas más predecibles, repetitivas y
+                                    digitalizables serán asumidas, total o parcialmente, por IA: entrada de datos,
+                                    atención básica al cliente, informes estándar, traducciones genéricas, etc.</li>
+                                <li><strong>Oficios (carpintería, plomería, etc.):</strong> Los trabajos físicos que
+                                    exigen destreza, improvisación o empatía (tareas manuales, cuidado de personas,
+                                    atención educativa, artesanía, etc.) <strong>seguirán necesitando intervención
+                                        humana directa.</strong>.</li>
+                                <li><strong>Destreza física:</strong> También mantendrán valor <strong>disciplinas
+                                        corporales como el deporte, la danza o el entrenamiento personalizado</strong>,
+                                    ya que requieren presencia, intuición, adaptación al contexto y coordinación motora
+                                    fina. Hoy, eso es difícil de imitar para una máquina.</li>
+                                <li><strong>Principio de Moravec:</strong> Es más fácil para una IA redactar un ensayo
+                                    que clavar un clavo. Por eso, en un mundo cada vez más automatizado, los oficios se
+                                    revalorizan.</li>
                             </ul>
                         </div>
                         <div id="s9-detail-4" class="detail-content hidden">
                             <p class="sub-category-title"><strong>Transición difícil</strong></p>
                             <ul>
-                                <li><strong>Transición compleja:</strong> Es probable que exista una etapa de desempleo estructural, antes de que los nuevos roles de trabajo puedan consolidarse. Por eso, el desafío no es solo tecnológico: también es político, formativo y económico.</li>
-                                <li><strong>Responsabilidad humana:</strong> Surgen funciones que requieren juicio, creatividad y toma de decisiones complejas. La supervisión y el criterio humano son indispensables para integrar IA.</li>
+                                <li><strong>Transición compleja:</strong> Es probable que exista una etapa de desempleo
+                                    estructural, antes de que los nuevos roles de trabajo puedan consolidarse. Por eso,
+                                    el desafío no es solo tecnológico: también es político, formativo y económico.</li>
+                                <li><strong>Responsabilidad humana:</strong> Surgen funciones que requieren juicio,
+                                    creatividad y toma de decisiones complejas. La supervisión y el criterio humano son
+                                    indispensables para integrar IA.</li>
                             </ul>
-                            <p class="sub-category-title" style="margin-top: 1.5rem;"><strong>Nuevos trabajos en la era de la IA</strong></p>
+                            <p class="sub-category-title" style="margin-top: 1.5rem;"><strong>Nuevos trabajos en la era
+                                    de la IA</strong></p>
                             <ul>
-                                <li><strong>Diseñador de interfaces conversacionales:</strong> Piensa en cómo las personas interactúan con la IA. Redacta instrucciones claras, naturales y efectivas. Une lenguaje humano y lenguaje de máquina.</li>
-                                <li><strong>Especialista en ética de IA:</strong> Trabaja sobre los límites, responsabilidades y consecuencias del uso de estas tecnologías. Evalúa riesgos sociales, políticos y legales.</li>
-                                <li><strong>Curador de datos:</strong> Selecciona, limpia y organiza la información que usa la IA para entrenarse o responder, garantizando su calidad y reduciendo sesgos.</li>
-                                <li><strong>Auditor de sesgos:</strong> Revisa las respuestas o comportamientos de un sistema para detectar discriminaciones, omisiones o patrones problemáticos. Ayuda a que las IAs sean más justas y seguras.</li>
+                                <li><strong>Diseñador de interfaces conversacionales:</strong> Piensa en cómo las
+                                    personas interactúan con la IA. Redacta instrucciones claras, naturales y efectivas.
+                                    Une lenguaje humano y lenguaje de máquina.</li>
+                                <li><strong>Especialista en ética de IA:</strong> Trabaja sobre los límites,
+                                    responsabilidades y consecuencias del uso de estas tecnologías. Evalúa riesgos
+                                    sociales, políticos y legales.</li>
+                                <li><strong>Curador de datos:</strong> Selecciona, limpia y organiza la información que
+                                    usa la IA para entrenarse o responder, garantizando su calidad y reduciendo sesgos.
+                                </li>
+                                <li><strong>Auditor de sesgos:</strong> Revisa las respuestas o comportamientos de un
+                                    sistema para detectar discriminaciones, omisiones o patrones problemáticos. Ayuda a
+                                    que las IAs sean más justas y seguras.</li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -773,10 +978,16 @@
                         <div id="s10-detail-1" class="detail-content hidden">
                             <h3>Guía rápida para aplicar IA</h3>
                             <ol class="step-list">
-                                <li><strong>Definí un problema y acotalo:</strong> ¿Qué tarea repetitiva te quita más tiempo? Empezá por ahí, para mejorar un flujo de trabajo.</li>
-                                <li><strong>Revisá tus recursos:</strong> Equipo, fondos e información (mails, documentos, etc.). La IA necesita buenos datos. Analizá qué tenés y qué te falta.</li>
-                                <li><strong>Elegí una estrategia realista:</strong> La mayoría de las veces no se requiere reemplazar todo (transformación), sino sumar IA al proceso humano (ampliación). Usar RAG suele ser un buen comienzo.</li>
-                                <li><strong>Armá un prototipo simple:</strong> No busques que sea perfecto. Debe ser útil y fácil de probar. Empezá de a poco, experimentá, revisá y mejorá.</li>
+                                <li><strong>Definí un problema y acotalo:</strong> ¿Qué tarea repetitiva te quita más
+                                    tiempo? Empezá por ahí, para mejorar un flujo de trabajo.</li>
+                                <li><strong>Revisá tus recursos:</strong> Equipo, fondos e información (mails,
+                                    documentos, etc.). La IA necesita buenos datos. Analizá qué tenés y qué te falta.
+                                </li>
+                                <li><strong>Elegí una estrategia realista:</strong> La mayoría de las veces no se
+                                    requiere reemplazar todo (transformación), sino sumar IA al proceso humano
+                                    (ampliación). Usar RAG suele ser un buen comienzo.</li>
+                                <li><strong>Armá un prototipo simple:</strong> No busques que sea perfecto. Debe ser
+                                    útil y fácil de probar. Empezá de a poco, experimentá, revisá y mejorá.</li>
                             </ol>
                         </div>
                         <div id="s10-detail-2" class="detail-content hidden">
@@ -798,43 +1009,66 @@
                                 </div>
                                 <div class="nested-detail-view hidden">
                                     <div id="s10-nested-1" class="detail-content nested-detail-content hidden">
-                                        <p class="sub-category-title"><strong>Guía para integrarla en periodismo</strong></p>
+                                        <p class="sub-category-title"><strong>Guía para integrarla en
+                                                periodismo</strong></p>
                                         <ul>
                                             <li>Sumar la IA para mejorar flujos de trabajo, no para reemplazarlos.</li>
-                                            <li>Comprender con claridad el problema, revisar supuestos y definir objetivos realistas.</li>
+                                            <li>Comprender con claridad el problema, revisar supuestos y definir
+                                                objetivos realistas.</li>
                                             <li>Mantener el proyecto simple e ir midiendo su resultado.</li>
-                                            <li>Tratar de transformar todo de una vez, suele complicar más que resolver.</li>
-                                            <li>Los proyectos de IA deben ser dinámicos y flexibles (adaptarse a un problema y evolucionar).</li>
-                                            <li>Si el proceso muestra resultados favorables, hacerlo crecer de forma gradual.</li>
-                                            <li><strong>Explorá recursos:</strong> <a href="https://newsinitiative.withgoogle.com/es-mx/" target="_blank">Google News Initiative</a>, <a href="https://www.journalismai.info/" target="_blank">JournalismAI</a>, <a href="https://www.poynter.org/tag/artificial-intelligence/" target="_blank">Poynter</a>, <a href="https://www.niemanlab.org/" target="_blank">Nieman Lab</a> y <a href="https://journaliststudio.google.com/pinpoint/" target="_blank">Pinpoint</a>.</li>
+                                            <li>Tratar de transformar todo de una vez, suele complicar más que resolver.
+                                            </li>
+                                            <li>Los proyectos de IA deben ser dinámicos y flexibles (adaptarse a un
+                                                problema y evolucionar).</li>
+                                            <li>Si el proceso muestra resultados favorables, hacerlo crecer de forma
+                                                gradual.</li>
+                                            <li><strong>Explorá recursos:</strong> <a
+                                                    href="https://newsinitiative.withgoogle.com/es-mx/"
+                                                    target="_blank">Google News Initiative</a>, <a
+                                                    href="https://www.journalismai.info/"
+                                                    target="_blank">JournalismAI</a>, <a
+                                                    href="https://www.poynter.org/tag/artificial-intelligence/"
+                                                    target="_blank">Poynter</a>, <a href="https://www.niemanlab.org/"
+                                                    target="_blank">Nieman Lab</a> y <a
+                                                    href="https://journaliststudio.google.com/pinpoint/"
+                                                    target="_blank">Pinpoint</a>.</li>
                                         </ul>
                                     </div>
                                     <div id="s10-nested-2" class="detail-content nested-detail-content hidden">
-                                        <p class="sub-category-title" style="margin-top: 1.5rem;"><strong>Para tener en cuenta</strong></p>
+                                        <p class="sub-category-title" style="margin-top: 1.5rem;"><strong>Para tener en
+                                                cuenta</strong></p>
                                         <ul>
-                                            <li>Si no se consigue avanzar, buscar colaboración en universidades o grupos de investigación.</li>
-                                            <li>Estos proyectos llevan tiempo: definir el tema, curar datos, encontrar herramientas adecuadas, etc.</li>
-                                            <li>Incluso si el proceso falla, puede dejar un aprendizaje útil para futuras experiencias.</li>
+                                            <li>Si no se consigue avanzar, buscar colaboración en universidades o grupos
+                                                de investigación.</li>
+                                            <li>Estos proyectos llevan tiempo: definir el tema, curar datos, encontrar
+                                                herramientas adecuadas, etc.</li>
+                                            <li>Incluso si el proceso falla, puede dejar un aprendizaje útil para
+                                                futuras experiencias.</li>
                                             <li>La urgencia no debe comprometer la calidad del trabajo.</li>
                                         </ul>
                                     </div>
                                     <div id="s10-nested-3" class="detail-content nested-detail-content hidden">
-                                        <p class="sub-category-title" style="margin-top: 1.5rem;"><strong>Cuidados al utilizar modelos de lenguaje</strong></p>
+                                        <p class="sub-category-title" style="margin-top: 1.5rem;"><strong>Cuidados al
+                                                utilizar modelos de lenguaje</strong></p>
                                         <ul>
                                             <li>Uso responsable y supervisado de los LLM.</li>
-                                            <li>Actuar con transparencia y dejar claro qué contenidos son generados por IA.</li>
-                                            <li>Al incorporar IA, reconocer sus limitaciones (posibilidad de error, sesgos).</li>
-                                            <li>Los modelos pueden generar contenido verosímil pero falso (alucinación).</li>
+                                            <li>Actuar con transparencia y dejar claro qué contenidos son generados por
+                                                IA.</li>
+                                            <li>Al incorporar IA, reconocer sus limitaciones (posibilidad de error,
+                                                sesgos).</li>
+                                            <li>Los modelos pueden generar contenido verosímil pero falso (alucinación).
+                                            </li>
                                         </ul>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                             <!-- End Nested Interactive View -->
                         </div>
-                        
+
                     </div>
-                    <p class="quote-text">Tener claridad para determinar el problema y ver cómo se medirán los resultados.</p>
+                    <p class="quote-text">Tener claridad para determinar el problema y ver cómo se medirán los
+                        resultados.</p>
                     <p class="quote-text">Idear un proyecto que sea simple y flexible. Si funciona, escalarlo.</p>
                 </div>
             </div>
@@ -861,27 +1095,39 @@
                     <div class="interactive-detail-view hidden">
                         <div id="s11-detail-1" class="detail-content hidden">
                             <h3>🤖 Bot que responde consultas frecuentes</h3>
-                            <p><strong>Objetivo:</strong> Automatizar las respuestas a las dudas más comunes de una tienda online.</p>
+                            <p><strong>Objetivo:</strong> Automatizar las respuestas a las dudas más comunes de una
+                                tienda online.</p>
                             <ul>
-                                <li><strong>Problema:</strong> El equipo de atención pierde tiempo respondiendo siempre lo mismo (envíos, pagos, cambios).</li>
-                                <li><strong>Recursos:</strong> Documento con preguntas frecuentes (FAQs) e instrucciones claras para el bot (rol, qué hacer y qué evitar).</li>
-                                <li><strong>Estrategia:</strong> Crear una gema personalizada en Gemini 2.5 Pro, subiendo el documento como base de conocimiento (RAG).</li>
-                                <li><strong>Prototipo:</strong> Usar el bot desde el panel de Gemini para validar si resuelve correctamente las 15 preguntas más frecuentes.</li>
-                                <li><strong>Medición:</strong> ¿Se redujo la cantidad de mails con dudas repetidas? ¿Se liberó tiempo del equipo?</li>
+                                <li><strong>Problema:</strong> El equipo de atención pierde tiempo respondiendo siempre
+                                    lo mismo (envíos, pagos, cambios).</li>
+                                <li><strong>Recursos:</strong> Documento con preguntas frecuentes (FAQs) e instrucciones
+                                    claras para el bot (rol, qué hacer y qué evitar).</li>
+                                <li><strong>Estrategia:</strong> Crear una gema personalizada en Gemini 2.5 Pro,
+                                    subiendo el documento como base de conocimiento (RAG).</li>
+                                <li><strong>Prototipo:</strong> Usar el bot desde el panel de Gemini para validar si
+                                    resuelve correctamente las 15 preguntas más frecuentes.</li>
+                                <li><strong>Medición:</strong> ¿Se redujo la cantidad de mails con dudas repetidas? ¿Se
+                                    liberó tiempo del equipo?</li>
                             </ul>
                         </div>
                         <div id="s11-detail-2" class="detail-content hidden">
                             <h3>✍️ Bot de contenidos para un emprendimiento</h3>
-                            <p><strong>Objetivo:</strong> Crear posteos semanales para redes sociales de forma automática.</p>
+                            <p><strong>Objetivo:</strong> Crear posteos semanales para redes sociales de forma
+                                automática.</p>
                             <ul>
-                                <li><strong>Problema:</strong> El emprendimiento no tiene tiempo para planificar, escribir y diseñar publicaciones.</li>
-                                <li><strong>Recursos:</strong> Documentación del emprendimiento (productos, historia, tono) y ejemplos de posteos previos. Instrucciones para el bot.</li>
-                                <li><strong>Estrategia:</strong> Crear un GPT personalizado con GPT-4o, subiendo los documentos como base de conocimiento (RAG).</li>
-                                <li><strong>Prototipo:</strong> Pedirle al bot que genere 3 posteos para Instagram (texto + hashtags + sugerencia visual) y revisarlos.</li>
-                                <li><strong>Medición:</strong> ¿Cuánto tiempo se ahorra? ¿Cómo responde la audiencia? ¿El equipo aprueba la calidad?</li>
+                                <li><strong>Problema:</strong> El emprendimiento no tiene tiempo para planificar,
+                                    escribir y diseñar publicaciones.</li>
+                                <li><strong>Recursos:</strong> Documentación del emprendimiento (productos, historia,
+                                    tono) y ejemplos de posteos previos. Instrucciones para el bot.</li>
+                                <li><strong>Estrategia:</strong> Crear un GPT personalizado con GPT-4o, subiendo los
+                                    documentos como base de conocimiento (RAG).</li>
+                                <li><strong>Prototipo:</strong> Pedirle al bot que genere 3 posteos para Instagram
+                                    (texto + hashtags + sugerencia visual) y revisarlos.</li>
+                                <li><strong>Medición:</strong> ¿Cuánto tiempo se ahorra? ¿Cómo responde la audiencia?
+                                    ¿El equipo aprueba la calidad?</li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -913,38 +1159,62 @@
                         <div id="s12-detail-1" class="detail-content hidden">
                             <h3>✅ Bots conversacionales</h3>
                             <ul class="tool-list">
-                                <li><a href="https://chatgpt.com" target="_blank"><strong>ChatGPT:</strong></a> Bots personalizables y memoria activa.</li>
-                                <li><a href="https://claude.ai" target="_blank"><strong>Claude:</strong></a> Análisis, código, redacción.</li>
-                                <li><a href="https://gemini.google.com/app" target="_blank"><strong>Gemini:</strong></a> Integración con Google, manejo de documentos y archivos.</li>
-                                <li><a href="https://x.ai/" target="_blank"><strong>Grok:</strong></a> Conversacional, creativo e integrado en X.</li>
-                                <li><a href="https://deepseek.com" target="_blank"><strong>DeepSeek:</strong></a> Rápido, potente, gratuito y muy preciso en lógica.</li>
-                                <li><a href="https://qwen.aliyun.com/" target="_blank"><strong>Qwen:</strong></a> Open‑source, uso multiplataforma y buen desempeño.</li>
-                                <li><a href="https://poe.com" target="_blank"><strong>Poe.com:</strong></a> Integra varios modelos y permite crear bots propios.</li>
-                                <li><a href="https://character.ai" target="_blank"><strong>Character.ai:</strong></a> Bots con personalidad propia.</li>
-                                <li><a href="https://you.com" target="_blank"><strong>You.com:</strong></a> Búsqueda y respuesta instantánea.</li>
-                                <li><a href="https://pi.ai" target="_blank"><strong>Pi (Inflection):</strong></a> Chat empático.</li>
+                                <li><a href="https://chatgpt.com" target="_blank"><strong>ChatGPT:</strong></a> Bots
+                                    personalizables y memoria activa.</li>
+                                <li><a href="https://claude.ai" target="_blank"><strong>Claude:</strong></a> Análisis,
+                                    código, redacción.</li>
+                                <li><a href="https://gemini.google.com/app" target="_blank"><strong>Gemini:</strong></a>
+                                    Integración con Google, manejo de documentos y archivos.</li>
+                                <li><a href="https://x.ai/" target="_blank"><strong>Grok:</strong></a> Conversacional,
+                                    creativo e integrado en X.</li>
+                                <li><a href="https://deepseek.com" target="_blank"><strong>DeepSeek:</strong></a>
+                                    Rápido, potente, gratuito y muy preciso en lógica.</li>
+                                <li><a href="https://qwen.aliyun.com/" target="_blank"><strong>Qwen:</strong></a>
+                                    Open‑source, uso multiplataforma y buen desempeño.</li>
+                                <li><a href="https://poe.com" target="_blank"><strong>Poe.com:</strong></a> Integra
+                                    varios modelos y permite crear bots propios.</li>
+                                <li><a href="https://character.ai" target="_blank"><strong>Character.ai:</strong></a>
+                                    Bots con personalidad propia.</li>
+                                <li><a href="https://you.com" target="_blank"><strong>You.com:</strong></a> Búsqueda y
+                                    respuesta instantánea.</li>
                             </ul>
                         </div>
                         <div id="s12-detail-2" class="detail-content hidden">
                             <h3>🧠 Herramientas creativas o investigativas</h3>
                             <ul class="tool-list">
-                                <li><a href="https://notebooklm.google.com" target="_blank"><strong>NotebookLM (Google):</strong></a> Cuaderno con IA: Resúmenes, explicaciones, mapas conceptuales. Texto y audio.</li>
-                                <li><a href="https://aistudio.google.com" target="_blank"><strong>AI Studio (Google):</strong></a> Laboratorio guiado para proyectos IA: multimodal. Ideal para experimentar.</li>
-                                <li><a href="https://perplexity.ai" target="_blank"><strong>Perplexity:</strong></a> Buscador conversacional con respaldo en fuentes.</li>
-                                <li><a href="https://manus.im" target="_blank"><strong>Manus:</strong></a> Agente autónomo. Puede investigar, analizar, generar informes o código, todo sin supervisión.</li>
-                                <li><a href="https://genspark.ai" target="_blank"><strong>Genspark:</strong></a> Plataforma <a href="https://es.wikipedia.org/wiki/Plataforma_de_desarrollo_sin_c%C3%B3digo" target="_blank">no-code</a> con agentes inteligentes. Se conecta a servicios web, investiga y crea.</li>
-                                <li><a href="https://agent.minimax.io/" target="_blank"><strong>MiniMax:</strong></a> Chat y agentes. Está en crecimiento, con modelo propio.</li>
+                                <li><a href="https://notebooklm.google.com" target="_blank"><strong>NotebookLM
+                                            (Google):</strong></a> Cuaderno con IA: Resúmenes, explicaciones, mapas
+                                    conceptuales. Texto y audio.</li>
+                                <li><a href="https://aistudio.google.com" target="_blank"><strong>AI Studio
+                                            (Google):</strong></a> Laboratorio guiado para proyectos IA: multimodal.
+                                    Ideal para experimentar.</li>
+                                <li><a href="https://perplexity.ai" target="_blank"><strong>Perplexity:</strong></a>
+                                    Buscador conversacional con respaldo en fuentes.</li>
+                                <li><a href="https://manus.im" target="_blank"><strong>Manus:</strong></a> Agente
+                                    autónomo. Puede investigar, analizar, generar informes o código, todo sin
+                                    supervisión.</li>
+                                <li><a href="https://genspark.ai" target="_blank"><strong>Genspark:</strong></a>
+                                    Plataforma <a
+                                        href="https://es.wikipedia.org/wiki/Plataforma_de_desarrollo_sin_c%C3%B3digo"
+                                        target="_blank">no-code</a> con agentes inteligentes. Se conecta a servicios
+                                    web, investiga y crea.</li>
+                                <li><a href="https://agent.minimax.io/" target="_blank"><strong>MiniMax:</strong></a>
+                                    Chat y agentes. Está en crecimiento, con modelo propio.</li>
                             </ul>
                         </div>
                         <div id="s12-detail-3" class="detail-content hidden">
                             <h3>⚙️ Automatizadores accesibles</h3>
                             <ul class="tool-list">
-                                <li><a href="https://make.com" target="_blank"><strong>Make:</strong></a> Automatizar procesos con lógica simple. Muy útil para conectar apps e IA.</li>
-                                <li><a href="https://n8n.io" target="_blank"><strong>n8n:</strong></a> Alternativa libre, permite armar flujos con IA, APIs, email, Google Docs, etc.</li>
-                                <li><a href="https://zapier.com" target="_blank"><strong>Zapier (free tier):</strong></a> Integraciones y flujos simples sin código, para conectar servicios web.</li>
+                                <li><a href="https://make.com" target="_blank"><strong>Make:</strong></a> Automatizar
+                                    procesos con lógica simple. Muy útil para conectar apps e IA.</li>
+                                <li><a href="https://n8n.io" target="_blank"><strong>n8n:</strong></a> Alternativa
+                                    libre, permite armar flujos con IA, APIs, email, Google Docs, etc.</li>
+                                <li><a href="https://zapier.com" target="_blank"><strong>Zapier (free
+                                            tier):</strong></a> Integraciones y flujos simples sin código, para conectar
+                                    servicios web.</li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -961,9 +1231,12 @@
                     <ul class="team-data">
                         <li><strong>Formación base:</strong> Comunicación Social.</li>
                         <li><strong>Otras áreas:</strong> Full Stack Python, Journalism_AI.</li>
-                        <li><strong>Enfoque:</strong> Narrativa, matrices discursivas, vibe coding, bots personalizados de audio y texto.</li>
-                        <li><strong>Método:</strong> Experimentación autodidacta en plataformas y servicios de IA; GPTs; Gems.</li>
-                        <li><strong>Entornos:</strong> GNU/Linux; ChatGPT; Gemini; Google AI Studio; Poe; LM Studio, etc. </li>
+                        <li><strong>Enfoque:</strong> Narrativa, matrices discursivas, vibe coding, bots personalizados
+                            de audio y texto.</li>
+                        <li><strong>Método:</strong> Experimentación autodidacta en plataformas y servicios de IA; GPTs;
+                            Gems.</li>
+                        <li><strong>Entornos:</strong> GNU/Linux; ChatGPT; Gemini; Google AI Studio; Poe; LM Studio,
+                            etc. </li>
                     </ul>
                 </div>
                 <div class="team-member-card">
@@ -976,8 +1249,11 @@
                         <li><strong>Voz:</strong> ElevenLabs, Google.</li>
                         <li><strong>Habilidades:</strong> Asisto, programo y chamuyo.</li>
                         <li><strong>Extras:</strong> Alguna alucinación, de vez en cuando.</li>
-                        <li class="contact-ay-line"><strong>Escribinos:</strong> <a href="mailto:nesval.labia@gmail.com">nesval.labia@gmail.com</a></li>
-                        <li class="contact-ay-line cta-line"><strong>Conversá conmigo 📡</strong> <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221GemivfgZyQvjiEEUELTjGeIn9NlWkdrO%22%5D,%22action%22:%22open%22,%22userId%22:%22110316645787037194871%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">en Google AI Studio ↗</a></li>
+                        <li class="contact-ay-line"><strong>Escribinos:</strong> <a
+                                href="mailto:nesval.labia@gmail.com">nesval.labia@gmail.com</a></li>
+                        <li class="contact-ay-line cta-line"><strong>Conversá conmigo 📡</strong> <a
+                                href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221GemivfgZyQvjiEEUELTjGeIn9NlWkdrO%22%5D,%22action%22:%22open%22,%22userId%22:%22110316645787037194871%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
+                                target="_blank">en Google AI Studio ↗</a></li>
                     </ul>
                 </div>
             </div>
@@ -1000,20 +1276,32 @@
                                         <h2>OTROS PROYECTOS</h2>
                                     </div>
                                     <div class="mission-card">
-                                        <a href="https://humolitik.onrender.com/" target="_blank"><h4>Humolitik ↗</h4></a>
+                                        <a href="https://humolitik.onrender.com/" target="_blank">
+                                            <h4>Humolitik ↗</h4>
+                                        </a>
                                         <p>Transcribe audios y realiza análisis político del contenido.</p>
                                     </div>
                                     <div class="mission-card">
-                                        <a href="https://humocripto.trade/" target="_blank"><h4>Humocripto ↗</h4></a>
+                                        <a href="https://humocripto.trade/" target="_blank">
+                                            <h4>Humocripto ↗</h4>
+                                        </a>
                                         <p>Análisis técnico e informes de contexto sobre el mercado cripto.</p>
                                     </div>
                                     <div class="mission-card">
-                                        <a href="https://chatgpt.com/g/g-6781524ce8d08191964db52baaae42b7-romi-salinas?model=gpt-4o" target="_blank"><h4>Romi Salinas ↗</h4></a>
-                                        <p>Personaje de ficción. Es ácida y sarcástica. Le gusta conversar. Tiene historia, recuerdos, amigos y un trabajo.</p>
+                                        <a href="https://chatgpt.com/g/g-6781524ce8d08191964db52baaae42b7-romi-salinas?model=gpt-4o"
+                                            target="_blank">
+                                            <h4>Romi Salinas ↗</h4>
+                                        </a>
+                                        <p>Personaje de ficción. Es ácida y sarcástica. Le gusta conversar. Tiene
+                                            historia, recuerdos, amigos y un trabajo.</p>
                                     </div>
                                     <div class="mission-card">
-                                        <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221GemivfgZyQvjiEEUELTjGeIn9NlWkdrO%22%5D,%22action%22:%22open%22,%22userId%22:%22110316645787037194871%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank"><h4>Ay! ↗</h4></a>
-                                        <p>Asistente de voz. Conversa sobre inteligencia artificial generativa de forma didáctica. Forma parte de IA Sin Humo.</p>
+                                        <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221GemivfgZyQvjiEEUELTjGeIn9NlWkdrO%22%5D,%22action%22:%22open%22,%22userId%22:%22110316645787037194871%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
+                                            target="_blank">
+                                            <h4>Ay! ↗</h4>
+                                        </a>
+                                        <p>Asistente de voz. Conversa sobre inteligencia artificial generativa de forma
+                                            didáctica. Forma parte de IA Sin Humo.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1034,6 +1322,7 @@
     <button id="universalBackBtn" class="universal-back-btn hidden">← Volver</button>
     <script src="script.js"></script>
 
-    
+
 </body>
+
 </html>
